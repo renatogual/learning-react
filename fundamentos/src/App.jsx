@@ -36,7 +36,7 @@ export default function App(props) {
         </Card>
 
         <Card titulo="#05 - Componente com filhos" cor="#880000">
-          <Familia></Familia>
+          <Familia sobrenome="Ferreira" />
         </Card>
       </div>
     </div>

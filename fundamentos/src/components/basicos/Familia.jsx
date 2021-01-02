@@ -4,9 +4,9 @@ import FamiliaMembro from "./FamiliaMembro";
 export default function Familia(props) {
   return (
     <div>
-      <FamiliaMembro nome="Pedro" sobrenome="Ferreira"/>
-      <FamiliaMembro nome="Ana" sobrenome="Ferreira" />
-      <FamiliaMembro nome="Gustavo" sobrenome="Ferreira" />
+      <FamiliaMembro nome="Pedro" sobrenome={props.sobrenome}/>
+      <FamiliaMembro nome="Ana" {...props} />
+      <FamiliaMembro nome="Gustavo" sobrenome="Silva" />
     </div>
   );
 }
