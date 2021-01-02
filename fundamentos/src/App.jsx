@@ -4,6 +4,7 @@ import React from "react";
 import Primeiro from "./components/basicos/Primeiro";
 import ComParametro from "./components/basicos/ComParametro";
 import Fragmento from "./components/basicos/Fragmento";
+import Aleatorio from "./components/basicos/Aleatorio";
 
 export default function (props) {
   return (
@@ -16,6 +17,7 @@ export default function (props) {
         nota={9.0}
       />
       <Fragmento />
+      <Aleatorio min={1} max={60} />
     </div>
   );
 }
