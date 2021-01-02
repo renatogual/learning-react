@@ -1,6 +1,6 @@
 /* eslint-disable import/no-anonymous-default-export */
 import React from "react";
-import "./App.css"
+import "./App.css";
 
 import Primeiro from "./components/basicos/Primeiro";
 import ComParametro from "./components/basicos/ComParametro";
@@ -18,7 +18,7 @@ export default function App(props) {
           <Primeiro />
         </Card>
 
-        <Card titulo="#02 - Componente com Parametro">
+        <Card titulo="#02 - Componente com Parametro" cor="#001988">
           <ComParametro
             titulo="Segundo Componente"
             aluno="José Renato"
@@ -26,11 +26,11 @@ export default function App(props) {
           />
         </Card>
 
-        <Card titulo="#03 - Fragmento React">
+        <Card titulo="#03 - Fragmento React" cor="#88007d">
           <Fragmento />
         </Card>
 
-        <Card titulo="#04 - Números Aleatórios">
+        <Card titulo="#04 - Números Aleatórios" cor="#883d00">
           <Aleatorio min={1} max={60} />
         </Card>
       </div>
