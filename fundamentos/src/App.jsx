@@ -10,6 +10,7 @@ import Card from "./components/layout/Card";
 import Familia from "./components/basicos/Familia";
 import FamiliaMembro from "./components/basicos/FamiliaMembro";
 import ListaAlunos from "./components/repeticao/ListaAlunos";
+import TabelaProdutos from "./components/repeticao/TabelaProdutos";
 
 export default function App(props) {
   return (
@@ -45,8 +46,12 @@ export default function App(props) {
           </Familia>
         </Card>
 
-        <Card titulo="#06 - Repetição" cor="#6ba056">
+        <Card titulo="#06 - Lista" cor="#6ba056">
           <ListaAlunos />
+        </Card>
+
+        <Card titulo="#07 - Tabela" cor="#13c0cc">
+          <TabelaProdutos />
         </Card>
       </div>
     </div>
