@@ -7,6 +7,7 @@ import ComParametro from "./components/basicos/ComParametro";
 import Fragmento from "./components/basicos/Fragmento";
 import Aleatorio from "./components/basicos/Aleatorio";
 import Card from "./components/layout/Card";
+import Familia from "./components/basicos/Familia";
 
 export default function App(props) {
   return (
@@ -32,6 +33,10 @@ export default function App(props) {
 
         <Card titulo="#04 - Números Aleatórios" cor="#883d00">
           <Aleatorio min={1} max={60} />
+        </Card>
+
+        <Card titulo="#05 - Componente com filhos" cor="#880000">
+          <Familia></Familia>
         </Card>
       </div>
     </div>
