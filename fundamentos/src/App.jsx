@@ -16,6 +16,7 @@ import UsuarioInfo from "./components/condicional/UsuarioInfo";
 import DiretaPai from "./components/comunicacao/DiretaPai";
 import IndiretaPai from "./components/comunicacao/IndiretaPai";
 import Input from "./components/formulario/Input";
+import Contador from "./components/contador/Contador";
 
 export default function App(props) {
   return (
@@ -74,6 +75,10 @@ export default function App(props) {
 
         <Card titulo="#11 - Componente Controlado" cor="#cc7a7a">
           <Input />
+        </Card>
+
+        <Card titulo="#12 - Contador" cor="#0d9700">
+          <Contador numeroInicial={10} />
         </Card>
       </div>
     </div>
