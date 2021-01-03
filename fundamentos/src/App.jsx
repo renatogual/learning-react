@@ -11,6 +11,8 @@ import Familia from "./components/basicos/Familia";
 import FamiliaMembro from "./components/basicos/FamiliaMembro";
 import ListaAlunos from "./components/repeticao/ListaAlunos";
 import TabelaProdutos from "./components/repeticao/TabelaProdutos";
+import ParOuImpar from "./components/condicional/ParOuImpar";
+import UsuarioInfo from "./components/condicional/UsuarioInfo";
 
 export default function App(props) {
   return (
@@ -52,6 +54,11 @@ export default function App(props) {
 
         <Card titulo="#07 - Tabela" cor="#13c0cc">
           <TabelaProdutos />
+        </Card>
+
+        <Card titulo="#08 - Renderização condicional" cor="#b0cc13">
+          <ParOuImpar numero={20} />
+          <UsuarioInfo usuario={{ nome: 'Fernando'}} />
         </Card>
       </div>
     </div>
