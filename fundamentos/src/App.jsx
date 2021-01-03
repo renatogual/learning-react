@@ -13,6 +13,8 @@ import ListaAlunos from "./components/repeticao/ListaAlunos";
 import TabelaProdutos from "./components/repeticao/TabelaProdutos";
 import ParOuImpar from "./components/condicional/ParOuImpar";
 import UsuarioInfo from "./components/condicional/UsuarioInfo";
+import DiretaPai from "./components/comunicacao/DiretaPai";
+import IndiretaPai from "./components/comunicacao/IndiretaPai";
 
 export default function App(props) {
   return (
@@ -42,7 +44,7 @@ export default function App(props) {
 
         <Card titulo="#05 - Componente com filhos" cor="#880000">
           <Familia sobrenome="Ferreira">
-            <FamiliaMembro nome="Pedro" sobrenome="armando"/>
+            <FamiliaMembro nome="Pedro" sobrenome="armando" />
             <FamiliaMembro nome="Ana" />
             <FamiliaMembro nome="Gustavo" />
           </Familia>
@@ -58,7 +60,15 @@ export default function App(props) {
 
         <Card titulo="#08 - Renderização condicional" cor="#b0cc13">
           <ParOuImpar numero={20} />
-          <UsuarioInfo usuario={{ nome: 'Fernando'}} />
+          <UsuarioInfo usuario={{ nome: "Fernando" }} />
+        </Card>
+
+        <Card titulo="#09 - Comunicação Direta" cor="#6913cc">
+          <DiretaPai />
+        </Card>
+
+        <Card titulo="#10 - Comunicação Indireta" cor="#52420f">
+          <IndiretaPai />
         </Card>
       </div>
     </div>
