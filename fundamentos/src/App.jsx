@@ -17,6 +17,7 @@ import DiretaPai from "./components/comunicacao/DiretaPai";
 import IndiretaPai from "./components/comunicacao/IndiretaPai";
 import Input from "./components/formulario/Input";
 import Contador from "./components/contador/Contador";
+import Mega from "./components/mega/Mega";
 
 export default function App(props) {
   return (
@@ -79,6 +80,10 @@ export default function App(props) {
 
         <Card titulo="#12 - Contador" cor="#0d9700">
           <Contador numeroInicial={10} />
+        </Card>
+
+        <Card titulo="#13 - Mega Sena" cor="#001314">
+          <Mega  />
         </Card>
       </div>
     </div>
