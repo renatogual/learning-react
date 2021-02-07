@@ -3,7 +3,7 @@ import Card from "./Card";
 import "./Intervalo.css";
 
 import { connect } from "react-redux";
-import { alterarNumeroMin, alterarNumeroMax } from "../store/actions/numeros";
+import { alterarNumeroMin, alterarNumeroMax } from "../store/actions/numerosActions";
 
 function Intervalo({ min, max, alterarMin, alterarMax }) {
   return (

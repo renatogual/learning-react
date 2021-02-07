@@ -1,4 +1,3 @@
-
 export function alterarNumeroMin(novoNum) {
   return {
     type: 'NUM_MIN_ALTERADO',
